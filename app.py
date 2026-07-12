@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-st.set_page_config(page_title="Netflix Content Predictor", page_icon="🎬", layout="centered")
+st.set_page_config(page_title="Netflix Content Predictor", page_icon="", layout="centered")
 
 # ---------------------------------------------------------------
 # Load model
@@ -18,7 +18,7 @@ def load_model():
 
 model = load_model()
 
-st.title("🎬 Netflix Content Predictor")
+st.title(" Netflix Content Predictor")
 st.write(
     "Fill in the details below. Text categories are converted to the encoded "
     "values the model was trained on."
